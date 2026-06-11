@@ -1,12 +1,12 @@
 import Hello from '@/components/hello';
 
 const Home = () => {
-    console.log('What type of a component am I?');
+     console.log('What type of a component am I?');
     return (
-        <main>
+       <main>
             <div className='text-5xl underline'>Welcome to Next.js</div>
             <Hello/>
-        </main>
+       </main>
     )
-}
-export default Home
+ }
+ export default Home
